@@ -1,0 +1,25 @@
+{
+  "name": "luna-fire-icon",
+  "version": "1.0.0",
+  "description": "Icons for Luna Fire",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf ./assets",
+    "build": "svgo -f ./src -o ./assets",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luna-fire/luna-fire-icon.git"
+  },
+  "author": "",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/luna-fire/luna-fire-icon/issues"
+  },
+  "homepage": "https://github.com/luna-fire/luna-fire-icon#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2",
+    "svgo": "^2.3.1"
+  }
+}
