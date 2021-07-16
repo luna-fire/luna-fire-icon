@@ -1,0 +1,16 @@
+<svg viewBox="56 56 452 452" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="luna-fire-clip-a">
+      <circle cx="312" cy="200" r="200" />
+    </clipPath>
+    <clipPath id="luna-fire-clip-b">
+      <circle cx="200" cy="200" r="200" />
+    </clipPath>
+  </defs>
+  <title>Luna Fire</title>
+  <circle cx="256" cy="256" r="200" fill="#d6ecfa" />
+  <circle cx="256" cy="256" r="200" fill="#b84a39" clip-path="url(#luna-fire-clip-a)" />
+  <g clip-path="url(#luna-fire-clip-a)">
+    <circle cx="256" cy="256" r="200" clip-path="url(#luna-fire-clip-b)" fill="#f15c5c" />
+  </g>
+</svg>
